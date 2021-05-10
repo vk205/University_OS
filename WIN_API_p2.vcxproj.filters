@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\GameField">
+      <UniqueIdentifier>{7a37c755-f120-46eb-9936-6c998657d4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GameField">
+      <UniqueIdentifier>{752909e0-a741-4b13-b66b-8b28757708a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Properties">
+      <UniqueIdentifier>{c5b1d447-6f11-4a44-b6f1-6794c8f5146e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\IPC">
+      <UniqueIdentifier>{8c07b84f-dcc7-497f-8a28-c98d351fa1e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\IPC">
+      <UniqueIdentifier>{c867e776-3a54-4a88-88bd-252d0730adcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Properties">
+      <UniqueIdentifier>{8a9b13fa-8a34-4c43-9230-c2a7bf4ac197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Game">
+      <UniqueIdentifier>{c3ed811f-a49a-4ce9-b4ba-99e514a05e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Game">
+      <UniqueIdentifier>{359fb35f-9148-490c-95eb-13d9aa2b0d49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Исходные файлы\GameField</Filter>
+    </ClCompile>
+    <ClCompile Include="GridDraw.cpp">
+      <Filter>Исходные файлы\GameField</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Исходные файлы\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties.cpp">
+      <Filter>Исходные файлы\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedStorage.cpp">
+      <Filter>Исходные файлы\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadDraw.cpp">
+      <Filter>Исходные файлы\GameField</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRules.cpp">
+      <Filter>Исходные файлы\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GridDraw.h">
+      <Filter>Файлы заголовков\GameField</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Файлы заголовков\GameField</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Файлы заголовков\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties.h">
+      <Filter>Файлы заголовков\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedStorage.h">
+      <Filter>Файлы заголовков\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadDraw.h">
+      <Filter>Файлы заголовков\GameField</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRules.h">
+      <Filter>Файлы заголовков\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\config.ini">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+</Project>
